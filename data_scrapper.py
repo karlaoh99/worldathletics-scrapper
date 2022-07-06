@@ -6,6 +6,7 @@ from pathlib import Path
 from selenium import webdriver
 from concurrent.futures import *
 
+
 years = [2022, 2021, 2020]
 
 
@@ -82,7 +83,11 @@ def scrap_clasf_event(tup, name, percent):
 
 # Download htmls
 def download_classification_htmls():
-    browser = webdriver.Firefox()
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    browser = webdriver.Chrome('chromedriver', options=chrome_options)
     path = 'htmls/'
     for tup, name in clasf.event_name.items():
         event, sex = tup
