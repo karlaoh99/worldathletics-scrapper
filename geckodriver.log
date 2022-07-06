@@ -1,0 +1,151 @@
+1653281975571	geckodriver	INFO	Listening on 127.0.0.1:42067
+1653282037126	geckodriver	INFO	Listening on 127.0.0.1:51831
+1653529566232	geckodriver	INFO	Listening on 127.0.0.1:34961
+1653529585279	geckodriver	INFO	Listening on 127.0.0.1:56299
+1653529661587	geckodriver	INFO	Listening on 127.0.0.1:33519
+1653535566296	geckodriver	INFO	Listening on 127.0.0.1:44961
+1653535566881	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53843" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehUWnV6"
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1653535567743	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehUWnV6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53843/devtools/browser/6be2cf68-0cb5-4daa-ab88-2e7eb4420419
+1653535568976	Marionette	INFO	Listening on port 40091
+1653535569007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653535569500	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: services.settings: 
+  blocklists/addons-bloomfilters Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1655988801357	geckodriver	INFO	Listening on 127.0.0.1:36635
+1655988802011	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37231" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebImdja"
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1655988802662	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebImdja/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37231/devtools/browser/7c675bbf-1590-486f-a52a-7c92a6019796
+1655988804430	Marionette	INFO	Listening on port 45607
+1655988804533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1655988851320	Marionette	INFO	Stopped listening on port 45607
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1655988851569	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1657031224933	geckodriver	INFO	Listening on 127.0.0.1:55273
+1657031225630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34055" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileI3wtC0"
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1657031226565	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI3wtC0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34055/devtools/browser/01ecca43-f49a-4cd3-b76b-2452c5da6661
+1657031228582	Marionette	INFO	Listening on port 40537
+1657031228652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657031551460	geckodriver	INFO	Listening on 127.0.0.1:50301
+1657031551476	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51273" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1V2SgS"
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1657031551731	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1V2SgS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51273/devtools/browser/d5178911-60c6-44a1-9a64-cf831f8aa728
+1657031553247	Marionette	INFO	Listening on port 35253
+1657031553293	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+1657031961741	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657034041544	geckodriver	INFO	Listening on 127.0.0.1:51387
+1657034042100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45361" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUTlXUY"
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1657034042401	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUTlXUY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45361/devtools/browser/818e7403-ea6a-46a2-9433-6f660eec7dc3
+1657034044145	Marionette	INFO	Listening on port 34071
+1657034044220	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657050564762	geckodriver	INFO	Listening on 127.0.0.1:42513
+1657050565403	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53193" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUuwmk4"
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1657050565999	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUuwmk4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53193/devtools/browser/108de808-6d62-4d58-bee3-be9fa9c8b1a0
+1657050567396	Marionette	INFO	Listening on port 36805
+1657050567420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://worldathletics.org/_next/static/chunks/dd2cab009040fb625735862d618b675ff8b27048.413629b64f531fec7e05.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+1657050870405	Marionette	INFO	Stopped listening on port 36805
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1657050870559	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1657050913776	geckodriver	INFO	Listening on 127.0.0.1:35151
+1657050913794	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53031" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileM3f4g3"
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+[GFX1-]: glxtest: libEGL missing eglGetDisplayDriverName
+1657050914043	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM3f4g3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53031/devtools/browser/3a4403cb-073a-4d27-8b8f-1aad80104af2
+1657050915332	Marionette	INFO	Listening on port 41113
+1657050915449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657051113907	Marionette	INFO	Stopped listening on port 41113
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1657051114112	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
