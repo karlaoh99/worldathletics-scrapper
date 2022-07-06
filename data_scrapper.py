@@ -5,8 +5,6 @@ import csv
 from pathlib import Path
 from selenium import webdriver
 from concurrent.futures import *
-from selenium.webdriver.firefox.options import Options
-
 
 years = [2022, 2021, 2020]
 
@@ -84,9 +82,7 @@ def scrap_clasf_event(tup, name, percent):
 
 # Download htmls
 def download_classification_htmls():
-    options = Options()
-    options.add_argument("--headless")
-    browser = webdriver.Firefox(firefox_options=options)
+    browser = webdriver.Firefox()
     path = 'htmls/'
     for tup, name in clasf.event_name.items():
         event, sex = tup
