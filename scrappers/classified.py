@@ -28,7 +28,7 @@ W_HAMMER_THROW = "Women's Hammer Throw"
 W_JAVELIN_THROW = "Women's Javelin Throw"
 W_MARATHON = "Women's Marathon"
 W_20KM_RACE_WALK = "Women's 20km Race Walk"
-W_35KM_RACE_WALK = "Women's 35km Race Walk"
+W_50KM_RACE_WALK = "Women's 50km Race Walk"
 W_HEPTATHLON = "Women's Heptathlon"
 W_4X100M = "Women's 4x100m"
 W_4X400M = "Women's 4x400m"
@@ -52,7 +52,7 @@ M_HAMMER_THROW = "Men's Hammer Throw"
 M_JAVELIN_THROW = "Men's Javelin Throw"
 M_MARATHON = "Men's Marathon"
 M_20KM_RACE_WALK = "Men's 20km Race Walk"
-M_35KM_RACE_WALK = "Men's 35km Race Walk"
+M_50KM_RACE_WALK = "Men's 50km Race Walk"
 M_DECATHLON = "Men's Decathlon"
 M_4X100M = "Men's 4x100m"
 M_4X400M = "Men's 4x400m"
@@ -79,7 +79,7 @@ event_name = {
     ('atl_jab', 'female'): W_JAVELIN_THROW,
     ('atl_mat', 'female'): W_MARATHON,
     ('atl_20km', 'female'): W_20KM_RACE_WALK,
-    ('atl_35km', 'female'): W_35KM_RACE_WALK,
+    ('atl_50km', 'female'): W_50KM_RACE_WALK,
     ('atl_hep', 'female'): W_HEPTATHLON,
     ('atl_4x100m', 'female'): W_4X100M,
     ('atl_4x400m', 'female'): W_4X400M,
@@ -103,7 +103,7 @@ event_name = {
     ('atl_jab', 'male'): M_JAVELIN_THROW,
     ('atl_mat', 'male'): M_MARATHON,
     ('atl_20km', 'male'): M_20KM_RACE_WALK,
-    ('atl_35km', 'male'): M_35KM_RACE_WALK,
+    ('atl_50km', 'male'): M_50KM_RACE_WALK,
     ('atl_dec', 'male'): M_DECATHLON,
     ('atl_4x100m', 'male'): M_4X100M,
     ('atl_4x400m', 'male'): M_4X400M,
@@ -131,7 +131,7 @@ event_id = {
     W_JAVELIN_THROW: '10229533',
     W_MARATHON: '10229534',
     W_20KM_RACE_WALK: '10229535',
-    W_35KM_RACE_WALK: '10229989',
+    W_50KM_RACE_WALK: '10229603',
     W_HEPTATHLON: '10229536',
     W_4X100M: '204594',
     W_4X400M: '204596',
@@ -155,7 +155,7 @@ event_id = {
     M_JAVELIN_THROW: '10229636',
     M_MARATHON: '10229634',
     M_20KM_RACE_WALK: '10229508',
-    M_35KM_RACE_WALK: '10229627',
+    M_50KM_RACE_WALK: '10229628',
     M_DECATHLON: '10229629',
     M_4X100M: '204593',
     M_4X400M: '204595',
@@ -183,7 +183,7 @@ event_profile_name = {
     W_JAVELIN_THROW: 'Javelin Throw',
     W_MARATHON: 'Marathon',
     W_20KM_RACE_WALK: '20 Kilometres Race Walk',
-    W_35KM_RACE_WALK: '35 Kilometres Race Walk',
+    W_50KM_RACE_WALK: '50 Kilometres Race Walk',
     W_HEPTATHLON: 'Heptathlon',
     W_4X100M: '-',
     W_4X400M: '-',
@@ -207,7 +207,7 @@ event_profile_name = {
     M_JAVELIN_THROW: 'Javelin Throw',
     M_MARATHON: 'Marathon',
     M_20KM_RACE_WALK: '20 Kilometres Race Walk',
-    M_35KM_RACE_WALK: '35 Kilometres Race Walk',
+    M_50KM_RACE_WALK: '50 Kilometres Race Walk',
     M_DECATHLON: 'Decathlon',
     M_4X100M: '-',
     M_4X400M: '-',
@@ -215,7 +215,7 @@ event_profile_name = {
 }
 
 # ROAD TO OREGON
-BASE_URL = URL('https://worldathletics.org/stats-zone/road-to/7137279')
+BASE_URL = URL('https://worldathletics.org/stats-zone/road-to/7125365')
 
 
 athletes_urls = {}
@@ -303,8 +303,8 @@ class ClassifiedAthletes():
         full_path = Path(path)
         full_path.mkdir(parents=True, exist_ok=True)
         full_path /= f'{event}-{sex}.html'
-        if full_path.exists():
-            return
+        # if full_path.exists():
+        #     return
         print('Loading page...')
         try:
             browser.get(str(self.url))

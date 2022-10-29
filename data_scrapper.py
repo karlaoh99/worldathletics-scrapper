@@ -6,7 +6,7 @@ from pathlib import Path
 from selenium import webdriver
 from concurrent.futures import *
 
-years = [2022, 2021, 2020]
+years = [2017, 2018, 2019]
 
 
 def save_world_ranking_data(path: str, data):
@@ -77,7 +77,7 @@ def scrap_clasf_event(tup, name, percent):
     html = None
     with open(f'htmls/{event}-{sex}.html', 'r', encoding='utf-8') as f:
         html = f.read()
-    scrap_classified(f'classified/{event}/{sex}/', name, html, percent, 250)
+    scrap_classified(f'classified/{event}/{sex}/', name, html, percent, 300)
 
 
 # Download htmls
